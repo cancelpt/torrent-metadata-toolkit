@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+
+# virtual envs
+.venv/
+venv/
+env/
+
+# packaging outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# test and tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# editors
+.vscode/
+.idea/
+
+# local scratch data
+tmp/
